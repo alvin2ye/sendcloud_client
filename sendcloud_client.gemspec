@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'sendcloud_client'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = ['Alvin Ye']
   spec.email         = ['alvin.ye.cn@gmail.com']
   spec.description   = %q{ruby client for sohu sendcloud api v2}
