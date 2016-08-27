@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.version       = '0.0.1'
   spec.authors       = ['Alvin Ye']
   spec.email         = ['alvin.ye.cn@gmail.com']
-  spec.description   = %q{ruby client for sohu sendcloud api}
-  spec.summary       = %q{use this gem to call sohu sendcloud api}
-  spec.homepage      = ''
+  spec.description   = %q{ruby client for sohu sendcloud api v2}
+  spec.summary       = %q{ruby client for sohu sendcloud api v2}
+  spec.homepage      = 'https://github.com/alvin2ye/sendcloud_client'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
