@@ -1,8 +1,8 @@
-## Usage
+## Intro
 
-only 25 lines
+已有的 sendcloud 东西太多, 接口升级不能用了. 这个只有25行
 
-#### Configure
+#### Usage
 
 ```
 
@@ -13,6 +13,6 @@ SendcloudClient.setup do |config|
   config.api_key = 'yyy'
 end
 
-p SendcloudClient.sendmail(to: "alvin.ye.cn@gmail.com", from: "xxx", fromName: "SendCloud", subject: "xxx", html: "xxx")
+p SendcloudClient.sendmail(to: "xxx@gmail.com", from: "xxx", fromName: "SendCloud", subject: "xxx", html: "xxx")
 
 ```
