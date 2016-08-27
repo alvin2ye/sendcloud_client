@@ -17,8 +17,8 @@ module SendcloudClient
     return if options[:to].length == 0
     uri = "#{API_BASE}/mail/send"
     res = RestClient.post uri, apiUser: SendcloudClient.api_user,
-       apiKey: SendcloudClient.api_key, to: options[:to], from: options[:from], fromName: options[fromName:],
-       subject: options[subject:], html: options[html:]
+       apiKey: SendcloudClient.api_key, to: options[:to], from: options[:from], fromName: options[:fromName],
+       subject: options[:subject], html: options[:html]
 
     JSON.parse(res) rescue nil
   end
